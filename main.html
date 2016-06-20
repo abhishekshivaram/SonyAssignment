@@ -1,0 +1,53 @@
+        <html>
+
+
+
+
+            <head>
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <!--bootstrap cdn links-->
+                <!-- Latest compiled and minified CSS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+                <!-- Optional theme -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+                <!-- Latest compiled and minified JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="row contentbox">
+                        
+                            <div class="row search">
+                                <div id ="searchbox">
+                                    <input  id = "searchfield" type="text" placeholder="Search query..." onKeyDown="if(event.keyCode==13) onSearch()">
+									<input type="button" value="Search" onclick="onSearch()">
+                                </div>   
+                            </div>
+                            
+                            <div class="row">
+                                <p id = "p1" class="pull-left">Total :</p>
+                                
+                                <ul id = "links" class="pager pull-right">
+                                    <li id="prev"><a href="#" id="prevLink" onclick="onPrevious();">Previous</a></li>
+									<span id = "pagenum"><i class="fa fa-angle-left"></i>1/10<i class="fa fa-angle-right"></i></span>
+                                    <li id="next"><a href="#" id="nextLink" onclick="onNext();">Next</a></li>
+                                </ul>
+                                <div class="table-responsive clear">
+                                <table id="myTable" cellpadding="50" cellspacing="50" border="10">
+                                    <col width="300">
+                                    <col width="1000">
+                                    <tbody>
+
+                                </tbody>
+                                </table>
+                            </div>
+
+                            </div>
+                        
+                    </div>
+                </div>
+                 <script src="main.js"></script>
+            </body>
+            </html>

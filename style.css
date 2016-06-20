@@ -1,0 +1,44 @@
+    .container{
+        width:1190px;
+        margin:20px auto;
+    }
+    .contentbox{
+        border:1px solid #eee;
+        
+    }
+    img{
+        width:300px;
+    }
+    .clear{
+        clear:both;
+    }
+	.pager{
+		margin-top:0px !important;
+	}
+     #searchbox{ text-align:center}
+	
+	input{
+		margin-top:10px !important;
+		margin-bottom:10px !important;
+	}
+	hr{
+	margin-top:0px !important;
+		margin-bottom:5px !important;
+	}
+        <style>
+        td {
+            border: 1px dotted blue;
+        }
+        tr.row2 td {
+            padding-top: 40px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+        p{
+          text-align: center;  
+
+        }
+
+        </style>
