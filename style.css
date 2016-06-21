@@ -6,6 +6,13 @@
         border:1px solid #eee;
         
     }
+    .row
+    {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
     img{
         width:300px;
     }
@@ -25,7 +32,6 @@
 	margin-top:0px !important;
 		margin-bottom:5px !important;
 	}
-        <style>
         td {
             border: 1px dotted blue;
         }
@@ -40,5 +46,3 @@
           text-align: center;  
 
         }
-
-        </style>
